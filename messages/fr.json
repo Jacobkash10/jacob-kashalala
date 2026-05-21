@@ -1,0 +1,64 @@
+{
+  "sidebar": {
+    "logo": "Jacob.dev",
+    "name": "Jacob Kashalala",
+    "description": "Développeur Full-Stack spécialisé en applications web modernes.",
+    "about": "À propos",
+    "experience": "Expérience",
+    "projects": "Projets",
+    "contact": "Contact"
+  },
+  "hero": {
+    "intro": "Bonjour, je suis",
+    "title": "Jacob Kashalala.",
+    "subtitle": "Je crée des applications web modernes.",
+    "description": "Développeur Full-Stack spécialisé en Next.js, React, TypeScript et plateformes web professionnelles.",
+    "projectsButton": "Voir mes projets",
+    "contactButton": "Me contacter",
+    "terminalRole": "Jacob Kashalala — Développeur Full-Stack"
+  },
+  "about": {
+    "label": "À propos",
+    "title": "Qui suis-je ?",
+    "p1": "Je suis un développeur web Full-Stack passionné par la création d’applications modernes, rapides et utiles.",
+    "p2": "Je travaille principalement avec Next.js, React, TypeScript, Tailwind CSS, Prisma et PostgreSQL pour construire des plateformes professionnelles.",
+    "p3": "Mon objectif est de créer des solutions digitales propres, performantes et adaptées aux besoins réels des entreprises.",
+    "skillsTitle": "Technologies"
+  },
+  "experience": {
+    "label": "Expérience",
+    "title": "Mon parcours",
+    "item1": {
+      "role": "Développeur Web Full-Stack",
+      "task1": "Création de sites web modernes pour entreprises et organisations.",
+      "task2": "Développement d’interfaces avec Next.js, React et Tailwind CSS.",
+      "task3": "Mise en place de solutions digitales pour améliorer la présence en ligne."
+    },
+    "item2": {
+      "role": "Développeur",
+      "task1": "Construction d’une plateforme de services d’impression en ligne.",
+      "task2": "Développement d’outils internes pour gérer les commandes et les clients.",
+      "task3": "Intégration future de systèmes e-commerce, CRM et automatisations."
+    }
+  },
+  "projects": {
+    "label": "Projets",
+    "title": "Quelques réalisations",
+    "item1": {
+      "description": "Plateforme moderne d’impression en ligne avec gestion de commandes et services professionnels."
+    },
+    "item2": {
+      "description": "Système de gestion de boîtes aux lettres et colis inspiré des solutions UPS Store."
+    },
+    "item3": {
+      "description": "Application mobile de gestion financière avec suivi des dépenses et revenus."
+    }
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Discutons de votre projet",
+    "description": "Je suis disponible pour des projets web, collaborations ou opportunités professionnelles. N’hésitez pas à me contacter.",
+    "button": "Me contacter",
+    "footer": "Tous droits réservés."
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "sidebar": {
+    "logo": "Jacob.dev",
+    "name": "Jacob Kashalala",
+    "description": "Full-Stack Developer specialized in modern web applications.",
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "intro": "Hi, my name is",
+    "title": "Jacob Kashalala.",
+    "subtitle": "I build modern web applications.",
+    "description": "Full-Stack Developer specialized in Next.js, React, TypeScript and professional web platforms.",
+    "projectsButton": "View my projects",
+    "contactButton": "Contact me",
+    "terminalRole": "Jacob Kashalala — Full-Stack Developer"
+  },
+    "about": {
+    "label": "About",
+    "title": "Who am I?",
+    "p1": "I am a Full-Stack web developer passionate about building modern, fast and useful applications.",
+    "p2": "I mainly work with Next.js, React, TypeScript, Tailwind CSS, Prisma and PostgreSQL to build professional platforms.",
+    "p3": "My goal is to create clean, high-performance digital solutions adapted to real business needs.",
+    "skillsTitle": "Technologies"
+  },
+  "experience": {
+    "label": "Experience",
+    "title": "My journey",
+    "item1": {
+      "role": "Full-Stack Web Developer",
+      "task1": "Built modern websites for businesses and organizations.",
+      "task2": "Developed interfaces with Next.js, React and Tailwind CSS.",
+      "task3": "Implemented digital solutions to improve online presence."
+    },
+    "item2": {
+      "role": "Developer",
+      "task1": "Built an online printing services platform.",
+      "task2": "Developed internal tools to manage orders and customers.",
+      "task3": "Planned integrations with e-commerce, CRM and automation systems."
+    }
+  },
+  "projects": {
+    "label": "Projects",
+    "title": "Some featured projects",
+    "item1": {
+      "description": "Modern online printing platform with order management and professional services."
+    },
+    "item2": {
+      "description": "Mailbox and package management system inspired by UPS Store solutions."
+    },
+    "item3": {
+      "description": "Finance mobile application with expense and income tracking."
+    }
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Let’s talk about your project",
+    "description": "I am available for web projects, collaborations or professional opportunities. Feel free to contact me.",
+    "button": "Contact me",
+    "footer": "All rights reserved."
+  }
+}
