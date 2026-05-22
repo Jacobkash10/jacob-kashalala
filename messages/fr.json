@@ -9,10 +9,10 @@
     "contact": "Contact"
   },
   "hero": {
-    "intro": "Bonjour, je suis",
+    "intro": "Salut 👋, je suis",
     "title": "Jacob Kashalala.",
     "subtitle": "Je crée des applications web modernes.",
-    "description": "Développeur Full-Stack spécialisé en Next.js, React, TypeScript et plateformes web professionnelles.",
+    "description": "Développeur Full-Stack spécialisé en écosystèmes JavaScript modernes, avec une expertise avancée en Next.js, React, TypeScript et en conception de plateformes web professionnelles, performantes et évolutives.",
     "projectsButton": "Voir mes projets",
     "contactButton": "Me contacter",
     "terminalRole": "Jacob Kashalala — Développeur Full-Stack"
@@ -20,38 +20,52 @@
   "about": {
     "label": "À propos",
     "title": "Qui suis-je ?",
-    "p1": "Je suis un développeur web Full-Stack passionné par la création d’applications modernes, rapides et utiles.",
-    "p2": "Je travaille principalement avec Next.js, React, TypeScript, Tailwind CSS, Prisma et PostgreSQL pour construire des plateformes professionnelles.",
-    "p3": "Mon objectif est de créer des solutions digitales propres, performantes et adaptées aux besoins réels des entreprises.",
+    "p1": "Je suis un développeur web Full-Stack spécialisé dans la conception et le développement d’applications modernes, performantes et orientées expérience utilisateur",
+    "p2": "J’utilise principalement les technologies JavaScript modernes telles que Next.js, React, TypeScript, Tailwind CSS, Prisma et PostgreSQL afin de concevoir des plateformes web professionnelles, évolutives et optimisées.",
+    "p3": "Mon objectif est de fournir des solutions digitales fiables, élégantes et adaptées aux besoins stratégiques des entreprises et des utilisateurs.",
     "skillsTitle": "Technologies"
   },
   "experience": {
     "label": "Expérience",
     "title": "Mon parcours",
+    "period": {
+      "present": "Présent",
+      "2023-present": "2023 - Présent",
+      "2025-2026": "2025 - 2026"
+    },
     "item1": {
+      "role": "Développeur Web Full-Stack",
+      "task1": "Conception et développement de la plateforme web",
+      "task2": "Développement d’interfaces avec Next.js, React et Tailwind CSS.",
+      "task3": "Développement d’outils web professionnels liés à la gestion des services, colis et workflows métiers."
+    },
+    "item2": {
+      "role": "Développeur Web Full-Stack",
+      "task1": "Construction d’une plateforme de services d’impression en ligne.",
+      "task2": "Développement d’outils internes pour gérer les commandes et les clients.",
+      "task3": "Intégration future de systèmes e-commerce, CRM et automatisations."
+    },
+    "item3": {
       "role": "Développeur Web Full-Stack",
       "task1": "Création de sites web modernes pour entreprises et organisations.",
       "task2": "Développement d’interfaces avec Next.js, React et Tailwind CSS.",
       "task3": "Mise en place de solutions digitales pour améliorer la présence en ligne."
-    },
-    "item2": {
-      "role": "Développeur",
-      "task1": "Construction d’une plateforme de services d’impression en ligne.",
-      "task2": "Développement d’outils internes pour gérer les commandes et les clients.",
-      "task3": "Intégration future de systèmes e-commerce, CRM et automatisations."
     }
   },
   "projects": {
     "label": "Projets",
     "title": "Quelques réalisations",
     "item1": {
-      "description": "Plateforme moderne d’impression en ligne avec gestion de commandes et services professionnels."
+      "description": "Plateforme moderne de commande de produits et services d’impression, d’expédition et de solutions professionnelles, conçue pour offrir une expérience simple, rapide et fiable aux particuliers et aux entreprises."
     },
     "item2": {
-      "description": "Système de gestion de boîtes aux lettres et colis inspiré des solutions UPS Store."
+      "description": "Agence digitale spécialisée dans le développement web, le design, l’impression et les solutions numériques professionnelles pour entreprises et organisations."
     },
     "item3": {
-      "description": "Application mobile de gestion financière avec suivi des dépenses et revenus."
+      "description": "Plateforme d’impression en ligne moderne offrant des solutions rapides, simples et professionnelles pour tous vos besoins d’impression et de supports marketing."
+    },
+    "item4": {
+      "description": "Plateforme moderne dédiée à l’investissement et au trading, conçue pour analyser les marchés, suivre les performances et gérer les actifs financiers de manière simple et intelligente."
     }
   },
   "contact": {
@@ -60,5 +74,13 @@
     "description": "Je suis disponible pour des projets web, collaborations ou opportunités professionnelles. N’hésitez pas à me contacter.",
     "button": "Me contacter",
     "footer": "Tous droits réservés."
+  },
+  "skills": {
+    "label": "Compétences",
+    "title": "Technologies que j’utilise",
+    "langages": "Langages",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "tools": "Workflow"
   }
 }

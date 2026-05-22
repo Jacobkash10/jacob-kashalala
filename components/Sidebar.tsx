@@ -12,7 +12,8 @@ import {
   Mail,
   UserRound,
   Menu,
-  X
+  X,
+  Code2
 } from "lucide-react";
 
 import { motion, AnimatePresence } from "framer-motion";
@@ -37,22 +38,29 @@ export default function Sidebar() {
       icon: UserRound,
     },
     {
-      id: "experience",
+      id: "skills",
       number: "02",
+      label: locale === "fr" ? "Compétences" : "Skills",
+      href: "#skills",
+      icon: Code2,
+    },
+    {
+      id: "experience",
+      number: "03",
       label: t("experience"),
       href: "#experience",
       icon: BriefcaseBusiness,
     },
     {
       id: "projects",
-      number: "03",
+      number: "04",
       label: t("projects"),
       href: "#projects",
       icon: FolderGit2,
     },
     {
       id: "contact",
-      number: "04",
+      number: "05",
       label: t("contact"),
       href: "#contact",
       icon: Mail,
@@ -156,8 +164,8 @@ export default function Sidebar() {
             <Languages className="h-4 w-4" />
 
             {locale === "fr"
-              ? "Switch to EN"
-              : "Passer en FR"}
+              ? "Passer en EN"
+              : "Switch to FR"}
           </Link>
 
           <div className="rounded-xl border border-[#233554] bg-[#020c1b] p-4 font-mono text-xs">
@@ -229,7 +237,7 @@ export default function Sidebar() {
                 </button>
               </div>
 
-              <nav className="flex flex-col gap-4 font-mono text-sm">
+              <nav className="flex flex-col gap-2 font-mono text-sm">
                 {navItems.map((item) => {
                   const Icon = item.icon;
                   const isActive = activeSection === item.id;
@@ -259,7 +267,7 @@ export default function Sidebar() {
               <Link
                 href={`/${nextLocale}`}
                 onClick={() => setIsMobileMenuOpen(false)}
-                className="mt-auto flex items-center justify-center gap-2 rounded-xl border border-[#64ffda] px-4 py-3 font-mono text-sm text-[#64ffda]"
+                className="mt-auto flex items-center justify-center gap-2 rounded-xl border border-[#64ffda] px-4 py-2 font-mono text-xs text-[#64ffda]"
               >
                 <Languages className="h-4 w-4" />
                 {locale === "fr" ? "EN" : "FR"}

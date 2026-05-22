@@ -1,32 +1,44 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import { ExternalLink, GiftIcon } from "lucide-react";
+import { ExternalLink } from "lucide-react";
 import SectionWrapper from "@/components/SectionWrapper";
 import Image from "next/image";
 import GlowCard from "@/components/GlowCard";
+import { FaGithub } from "react-icons/fa";
+import Link from "next/link";
 
 export default function Projects() {
   const t = useTranslations("projects");
 
   const projects = [
     {
-      title: "PrimePrint.store Platform",
+      title: "PrimePrint Store",
       description: t("item1.description"),
-      image: "/projects/primeprintstore.png",
-      tech: ["Next.js", "TypeScript", "Tailwind"],
+      image: "/projects/primeprintstore.jpg",
+      tech: ["Next js", "TypeScript", "Tailwind CSS", "PostgreSQL", "Better Auth", "Stripe", "Prisma"],
+      link: "https://primeprint-store.vercel.app/",
     },
     {
-      title: "MPS Mailbox System",
+      title: "MHM Digital",
       description: t("item2.description"),
-      image: "/projects/primeprintstore.png",
-      tech: ["Next.js", "Prisma", "PostgreSQL"],
+      image: "/projects/mhm.jpg",
+      tech: ["Next js", "Prisma", "PostgreSQL", "Tailwind CSS", "NextAuth", "Stripe"],
+      link: "https://mhmdigital.us/",
     },
     {
-      title: "Finance Mobile App",
+      title: "PrimePrint Net",
       description: t("item3.description"),
-      image: "/projects/primeprintstore.png",
-      tech: ["React Native", "Expo", "TypeScript"],
+      image: "/projects/ppnet.jpg",
+      tech: ["JavaScript", "Html", "CSS"],
+      link: "https://prime-print.net/",
+    },
+    {
+      title: "InvestX",
+      description: t("item4.description"),
+      image: "/projects/investx.jpg",
+      tech: ["Next js", "Prisma", "PostgreSQL", "Tailwind CSS", "Better Auth", "Stripe", "Recharts",],
+      link: "https://investx-trade.vercel.app/",
     },
   ];
 
@@ -44,8 +56,10 @@ export default function Projects() {
           <div className="p-6">
             <div className="mb-6 flex items-center justify-between">
               <div className="flex gap-4">
-                <GiftIcon className="h-5 w-5 cursor-pointer text-[#8892b0] hover:text-[#64ffda]" />
-                <ExternalLink className="h-5 w-5 cursor-pointer text-[#8892b0] hover:text-[#64ffda]" />
+                <FaGithub className="h-5 w-5 cursor-pointer text-[#8892b0] hover:text-[#64ffda]" />
+                <Link href={project.link} target="_blank" rel="noopener noreferrer" className="">
+                  <ExternalLink className="h-5 w-5 cursor-pointer text-[#8892b0] hover:text-[#64ffda]" />
+                </Link>
               </div>
             </div>
 

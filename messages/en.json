@@ -9,10 +9,10 @@
     "contact": "Contact"
   },
   "hero": {
-    "intro": "Hi, my name is",
+    "intro": "Hi 👋, my name is",
     "title": "Jacob Kashalala.",
     "subtitle": "I build modern web applications.",
-    "description": "Full-Stack Developer specialized in Next.js, React, TypeScript and professional web platforms.",
+    "description": "Full-stack developer specialising in modern JavaScript ecosystems, with advanced expertise in Next.js, React, TypeScript and the design of professional, high-performance and scalable web platforms.",
     "projectsButton": "View my projects",
     "contactButton": "Contact me",
     "terminalRole": "Jacob Kashalala — Full-Stack Developer"
@@ -28,30 +28,44 @@
   "experience": {
     "label": "Experience",
     "title": "My journey",
+    "period": {
+      "present": "Present",
+      "2023-present": "2023 - Present",
+      "2025-2026": "2025 - 2026"
+    },
     "item1": {
       "role": "Full-Stack Web Developer",
-      "task1": "Built modern websites for businesses and organizations.",
-      "task2": "Developed interfaces with Next.js, React and Tailwind CSS.",
-      "task3": "Implemented digital solutions to improve online presence."
+      "task1": "Design and development of the web platform",
+      "task2": "Development of user interfaces using Next.js, React and Tailwind CSS.",
+      "task3": "Development of professional web-based tools for service management, parcel handling and business workflows."
     },
     "item2": {
-      "role": "Developer",
+      "role": "Full-Stack Web Developer",
       "task1": "Built an online printing services platform.",
       "task2": "Developed internal tools to manage orders and customers.",
       "task3": "Planned integrations with e-commerce, CRM and automation systems."
+    },
+    "item3": {
+      "role": "Full-Stack Web Developer",
+      "task1": "Modern website design for businesses and organisations.",
+      "task2": "Development of user interfaces using Next.js, React and Tailwind CSS.",
+      "task3": "Implementation of digital solutions to enhance online presence."
     }
   },
   "projects": {
     "label": "Projects",
     "title": "Some featured projects",
     "item1": {
-      "description": "Modern online printing platform with order management and professional services."
+      "description": "A modern platform for ordering printing, shipping and business solutions, designed to offer a simple, fast and reliable experience for individuals and businesses."
     },
     "item2": {
-      "description": "Mailbox and package management system inspired by UPS Store solutions."
+      "description": "A digital agency specialising in web development, design, printing and professional digital solutions for businesses and organisations."
     },
     "item3": {
-      "description": "Finance mobile application with expense and income tracking."
+      "description": "A modern online printing platform offering fast, simple and professional solutions for all your printing and marketing material needs."
+    },
+    "item4": {
+      "description": "A modern platform dedicated to investment and trading, designed to analyse markets, track performance and manage financial assets in a simple and smart way."
     }
   },
   "contact": {
@@ -60,5 +74,13 @@
     "description": "I am available for web projects, collaborations or professional opportunities. Feel free to contact me.",
     "button": "Contact me",
     "footer": "All rights reserved."
+  },
+  "skills": {
+    "label": "Skills",
+    "title": "Technologies I use",
+    "langages": "Languages",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "tools": "Workflow"
   }
 }

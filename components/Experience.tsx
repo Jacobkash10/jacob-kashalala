@@ -8,16 +8,22 @@ export default function Experience() {
 
   const items = [
     {
-      company: "MHM Digital",
+      company: "PrimePrint Store, Mailboxes Packages & Solutions",
       role: t("item1.role"),
-      period: "2023 - Present",
+      period: t("period.present"),
       tasks: [t("item1.task1"), t("item1.task2"), t("item1.task3")],
     },
     {
-      company: "PrimePrint",
+      company: "PrimePrint Store",
       role: t("item2.role"),
-      period: "2025 - Present",
+      period: t("period.2025-2026"),
       tasks: [t("item2.task1"), t("item2.task2"), t("item2.task3")],
+    },
+    {
+      company: "MHM Digital",
+      role: t("item3.role"),
+      period: t("period.2023-present"),
+      tasks: [t("item3.task1"), t("item3.task2"), t("item3.task3")],
     },
   ];
 
@@ -38,7 +44,7 @@ export default function Experience() {
             <div className="mb-4 flex flex-col justify-between gap-2 md:flex-row">
               <div>
                 <h3 className="text-xl font-bold text-white">{item.role}</h3>
-                <p className="font-mono text-sm text-[#64ffda]">
+                <p className="font-mono text-sm text-[#64ffda] py-4">
                   {item.company}
                 </p>
               </div>
